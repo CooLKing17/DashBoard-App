@@ -1,0 +1,170 @@
+{
+  "categories": [
+    {
+      "id": "cspm-executive",
+      "name": "CSPM Executive Dashboard",
+      "CSPMwidgets": [
+        {
+          "id": "widget-1",
+          "name": "Cloud Accounts",
+          "statuses": [
+            {
+              "status": "Connected",
+              "count": 3
+            },
+            {
+              "status": "Not Connected",
+              "count": 1
+            }
+          ]
+        },
+        {
+          "id": "widget-2",
+          "name": "Cloud Account Risk Assessment",
+          "statuses": [
+            {
+              "status": "Failed",
+              "count": 5
+            },
+            {
+              "status": "Warning",
+              "count": 2
+            },
+            {
+              "status": "Passed",
+              "count": 7
+            }
+          ]
+        },
+        {
+          "id": "widget-3",
+          "name": "Cloud Account Usage Trends",
+          "statuses": [
+            {
+              "status": "High Usage",
+              "count": 4
+            },
+            {
+              "status": "Normal",
+              "count": 6
+            },
+            {
+              "status": "Low Usage",
+              "count": 2
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      "id": "cwpp-dashboard",
+      "name": "CWPP Dashboard",
+      "CWPPwidgets": [
+        {
+          "id": "widget-5",
+          "name": "Top 5 Namespace Specific Alerts",
+          "statuses": [
+            {
+              "status": "Critical",
+              "count": 2
+            },
+            {
+              "status": "High",
+              "count": 5
+            },
+            {
+              "status": "Medium",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "widget-6",
+          "name": "Workload Alerts",
+          "statuses": [
+            {
+              "status": "Alerted",
+              "count": 4
+            },
+            {
+              "status": "Resolved",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "id": "widget-7",
+          "name": "Top 10 Workload Vulnerabilities",
+          "statuses": [
+            {
+              "status": "Critical",
+              "count": 5
+            },
+            {
+              "status": "High",
+              "count": 3
+            },
+            {
+              "status": "Medium",
+              "count": 8
+            }
+          ]
+        }
+        
+      ]
+    },
+    {
+      "id": "registry-scan",
+      "name": "Registry Scan",
+      "Registrywidgets": [
+        {
+          "id": "widget-9",
+          "name": "Image Risk Assessment",
+          "statuses": [
+            {
+              "status": "Critical",
+              "count": 10
+            },
+            {
+              "status": "High",
+              "count": 3
+            },
+            {
+              "status": "Medium",
+              "count": 3
+            },
+            {
+              "status": "Low",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "id": "widget-10",
+          "name": "Image Security Issues",
+          "statuses": [
+            {
+              "status": "Critical",
+              "count": 10
+            },
+            {
+              "status": "High",
+              "count": 3
+            },
+            {
+              "status": "Medium",
+              "count": 3
+            },
+            {
+              "status": "Low",
+              "count": 3
+            }
+          ]
+        }
+        
+        
+      ]
+    }
+  ]
+}
