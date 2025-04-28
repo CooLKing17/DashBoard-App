@@ -9,14 +9,14 @@ function App() {
 
   return (
     <>
-     
-  
      <NavBar/>
-     
       <Dashboard/>
-
     </>
   );
 }
 
 export default App;
+
+// this simple dashboard that why i not use react-router-dom 
+//and redux toolkit 
+//to start dashboard you use npm run dev commad
